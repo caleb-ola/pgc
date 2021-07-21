@@ -1,0 +1,16 @@
+.slick-slider {
+  margin-top: 60px;
+}
+
+.slick-prev,
+.slick-next {
+  left: 50%;
+  transform: translate(-50%, 0) rotate(90deg);
+}
+.slick-next {
+  top: unset;
+  bottom: -30px;
+}
+.slick-prev {
+  top: -30px;
+}

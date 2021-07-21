@@ -1,0 +1,133 @@
+   
+
+  .carousel-inner{
+    width:100%;
+    /* height: 200px; */
+    max-height: 550px !important;
+
+  }
+  .carousel-inner .carousel-item img{
+    min-height: 450px !important;
+    object-fit: cover;
+
+
+  }
+  .carousel-indicators li { width: 10px; height: 10px; border-radius: 100%; }
+  
+    .carousel-caption
+    {
+      top: 30%;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index:1;
+    }
+    .carousel-caption > p {
+        font-family: "Circular Book", sans-serif;
+        color: #ddd;
+    }
+    .carousel-item:after {
+        content:"";
+        position:absolute;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        background:rgba(0,0,0,0.8);
+      }
+      .btn.explorer-btn {
+        background: #fff;
+        color: #023E8A;
+        border-radius: 10px;
+        border: 0px;
+        padding: 8px 20px;
+        font-weight: 300;
+        font-size: 0.9rem;
+        width: 50%;
+        margin: auto auto;
+      }
+      .btn.btn.explorer-btn:hover {
+        background: #023E8A;
+        color: #fff;
+        border: 0;
+      }
+      .carousel-control-next,.carousel-control-prev {
+        opacity: 0;
+        filter:alpha(opacity=0); /* IE support */
+      }
+
+
+  
+      @media only screen and (min-width: 768px){
+        .carousel-inner{
+          width:100%;
+          /* height: 550px; */
+          max-height: 600px !important;
+        }
+        .hero-header {
+          font-size:1.8rem;
+        }
+        .hero-text {
+          font-size:0.9rem;
+        }
+        .btn.explorer-btn {
+          border-radius: 10px;
+          border: 0px ;
+          padding: 10px 30px;
+          margin: auto;
+          font-weight: 300;
+          font-size: 1.1rem;
+          width: 30%;
+          margin: auto;
+        }
+        .carousel-control-next,.carousel-control-prev {
+          opacity: .5;
+          filter:alpha(opacity=5); /* IE support */
+       
+      }
+      }
+      @media only screen and (min-width: 1024px){
+       
+        .hero-header {
+          font-size:2rem;
+        }
+        .hero-text {
+          font-size:1.1rem;
+        }
+        .btn.explorer-btn {
+          padding: 12px 38px;
+          font-weight: 300;
+          font-size: 1.2rem;
+        }
+      }
+      @media only screen and (min-width: 1440px){
+        .hero-header {
+          font-size:2.7rem;
+        }
+        .hero-text {
+          font-size:1.3rem;
+        }
+        .btn.explorer-btn {
+          padding: 12px 38px;
+          font-weight: 300;
+          font-size: 1.2rem;
+          width: 20%;
+        }
+      }
+      @media only screen and (min-width: 1920px){
+        .carousel-inner{
+          width:100%;
+          /* height: 550px; */
+          max-height: 750px !important;
+        }
+        .hero-header {
+          font-size:3.0rem;
+        }
+        .hero-text {
+          font-size:2.0rem;
+        }
+        .btn.explorer-btn {
+          padding: 15px 45px;
+          font-weight: 400;
+          font-size: 1.7rem;
+        }
+      }

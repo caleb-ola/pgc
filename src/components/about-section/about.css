@@ -1,0 +1,89 @@
+div.row .about-flex > .about-flex1 {
+    order: 2 !important;
+}
+div.row .about-flex > .about-flex2 {
+    order: 1 !important;
+}
+p.content {
+    font-size:0.8rem;
+    font-family: "Circular Book", sans-serif;
+    color:rgb(77, 77, 77);
+
+}
+.btn {
+    font-size: 0.8rem;
+}
+h2.heading {
+    font-size:1.4rem;
+    color:#1A1919;
+    font-family: "Circular Medium", sans-serif;
+
+}
+.btn.learn-more {
+    background: #023E8A;
+}
+.btn.learn-more:hover {
+    background: #014daf;
+}
+h2.section-header {
+    font-size: 1.7rem;
+}
+
+
+@media only screen and (min-width: 768px){
+    div.row .about-flex   .about-flex1 {
+        order: 1;
+    }
+    div.row .about-flex  .about-flex2 {
+        order: 2;
+    }
+    p.content {
+        font-size:0.9rem;
+        font-family: "Circular Book", sans-serif;
+        
+    }
+    .btn {
+        font-size: 1rem;
+    }
+    h2.heading {
+        font-size:1.5rem;
+        
+    }
+    h2.section-header {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width: 1440px){
+    p.content {
+        font-size:1.2rem;
+        font-family: "Circular Book", sans-serif;
+        
+    }
+    .btn {
+        font-size: 1.2rem;
+    }
+    h2.heading {
+        font-size:2rem;
+    }
+    h2.section-header {
+        font-size: 2.6rem;
+    }
+}
+@media only screen and (min-width: 1920px){
+    p.content {
+        font-size:1.3rem;
+        font-family: "Circular Book", sans-serif;
+        
+    }
+    .btn {
+        font-size: 1.3rem;
+    }
+    h2.heading {
+        font-size:2.3rem;
+    }
+    h2.section-header {
+        font-size: 2.9rem;
+    }
+
+}
