@@ -12,9 +12,9 @@ const Testimonial = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 5000,
-    autoplaySpeed: 2000,
-    // cssEase: "linear",
+    speed: 1000,
+    // autoplaySpeed: 1000,
+    cssEase: "linear",
     pauseOnHover: true,
     responsive: [
       {

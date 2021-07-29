@@ -1,9 +1,20 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+
+// REACT TYPIST
+import Typist from "react-typist";
 
 // CSS
 import "./aboutHero.css";
 
 const AboutHero = () => {
+  const [count, setCount] = useState(1);
+
+  useEffect(() => {
+    // document.title = `You clicked ${count} times`;
+    console.log("Count: " + count);
+    setCount(1);
+  }, [count]);
+
   return (
     <section id="about-hero">
       <div
@@ -19,7 +30,26 @@ const AboutHero = () => {
               alt="Hero image"
             />
             <div class="carousel-caption ">
-              <h1 className="hero-header py-sm-2">WHO WE ARE</h1>
+              <h1 className="hero-header py-sm-2">
+                {" "}
+                WHO WE ARE:
+                {count ? (
+                  <Typist avgTypingDelay={200} onTypingDone={() => setCount(0)}>
+                    <span>PIONEERS</span>
+                    <Typist.Backspace count={8} delay={1200} />
+                    <span>FRONTIERS</span>
+                    <Typist.Backspace count={9} delay={1200} />
+                    <span>INNOVATORS</span>
+                    <Typist.Backspace count={10} delay={1200} />
+                    <span>PROBLEM SOLVERS</span>
+                    <Typist.Backspace count={15} delay={1200} />
+                    <span>HEALTH PASSIONATE PEOPLE</span>
+                    <Typist.Backspace count={24} delay={1200} />
+                  </Typist>
+                ) : (
+                  ""
+                )}
+              </h1>
             </div>
           </div>
         </div>
