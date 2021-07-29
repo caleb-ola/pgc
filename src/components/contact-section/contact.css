@@ -1,0 +1,59 @@
+.contact {
+}
+label {
+  color: rgb(44, 44, 44);
+}
+
+textarea {
+  vertical-align: top;
+  height: 150px;
+}
+input,
+textarea {
+  border-radius: 10px;
+  border: 1px solid;
+  font-family: "Circular Book", sans-serif;
+  font-size: 0.9rem;
+}
+input:focus,
+textarea:focus {
+  outline-width: 0;
+}
+::-webkit-input-placeholder {
+  opacity: 0.6 !important;
+  font-size: 0.8rem;
+}
+button.form-submit {
+  width: 100%;
+  font-size: 0.9rem;
+  border-radius: 10px;
+}
+
+@media only screen and (min-width: 728px) {
+  button.form-submit {
+    width: 100%;
+    font-size: 1rem;
+  }
+  input,
+  textarea {
+    font-size: 0.9rem;
+  }
+  ::-webkit-input-placeholder {
+    opacity: 0.6 !important;
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  button.form-submit {
+    /* width: auto; */
+    font-size: 1rem;
+  }
+  input,
+  textarea {
+    font-size: 1rem;
+  }
+  ::-webkit-input-placeholder {
+    opacity: 0.6 !important;
+    font-size: 1rem;
+  }
+}

@@ -1,7 +1,33 @@
 .card-container {
-  width: 90%;
+  width: 85%;
   height: auto;
+  margin: auto;
   padding: 5px;
-  border-radius: 10px;
-  box-shadow: 2px 4px 19px 1px #f0f0f0;
+  border-radius: 15px;
+  box-shadow: 2px 1px 15px #cecece60;
+  text-align: center;
+  background-color: #fff;
+  min-height: 150px;
+  /* max-height: 150px; */
+}
+.card-container:hover,
+.card-container:focus {
+  margin-right: 5px;
+  /* transform: scale(1.1); */
+  box-shadow: 2px 1px 15px 2px #cecece7c;
+}
+.card-one-icon {
+  width: 70px;
+  margin: auto;
+}
+@media only screen and (min-width: 728px) {
+  .card-container {
+    min-height: 100px;
+    text-align: left;
+    width: 75%;
+  }
+  .card-one-icon {
+    /* width: 70px; */
+    margin: auto;
+  }
 }

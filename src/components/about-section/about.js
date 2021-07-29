@@ -5,18 +5,18 @@ import "./about.css";
 
 const About = () => {
   return (
-    <section id="about" className="my-3">
+    <section id="about" className="my-3 mb-5">
       <div className="container">
         <div className="text-center pt-4">
           <h2 className="section-header fw-bold">Who we are</h2>
         </div>
 
-        <div className="row align-items-center my-2">
+        <div className="row align-items-center ">
           <div className="col-md order-md-2">
             <img
               src="images/building.gif"
               alt="about image"
-              className="img-fluid float-left-sm p-2 p-lg-5 m-1"
+              className="img-fluid float-left-sm p-3 m-1"
             />
           </div>
           <div className="col-md order-md-1">
@@ -46,12 +46,12 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="row align-items-center my-2">
+        <div className="row align-items-center ">
           <div className="col-md">
             <img
               src="images/team.gif"
               alt="about image"
-              className="img-fluid float-left-sm w-100 p-2 p-5 m-1"
+              className="img-fluid float-left-sm w-100 p-2 p-3 m-1"
             />
           </div>
           <div className="col-md">

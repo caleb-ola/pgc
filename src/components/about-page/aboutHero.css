@@ -1,0 +1,22 @@
+#about-hero .carousel-inner {
+  height: 300px;
+}
+
+@media only screen and (min-width: 1024px) {
+  #about-hero .carousel-inner .carousel-caption h1 {
+    height: 1%;
+    margin: -50px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  #about-hero .carousel-inner .carousel-caption h1 {
+    height: 1%;
+    margin: -100px;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  #about-hero .carousel-inner .carousel-caption h1 {
+    height: 10%;
+    margin: -200px;
+  }
+}

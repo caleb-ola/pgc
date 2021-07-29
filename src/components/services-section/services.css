@@ -1,16 +1,74 @@
-.slick-slider {
-  margin-top: 60px;
+#services {
+  background-color: #caf0f8;
+  max-width: 100%;
+  position: relative;
 }
+.section-subheader {
+  font-family: "Circular Book", sans-serif;
+  font-size: 0.9rem;
+}
+@media only screen and (min-width: 768px) {
+  #services .slick-slider {
+    margin-top: 60px;
+  }
 
-.slick-prev,
-.slick-next {
-  left: 50%;
-  transform: translate(-50%, 0) rotate(90deg);
+  #services .slick-prev,
+  #services .slick-next {
+    left: 50%;
+    transform: translate(-50%, 0) rotate(90deg);
+  }
+  #services .slick-next {
+    top: unset;
+    bottom: -30px;
+  }
+  #services .slick-prev {
+    top: -30px;
+  }
+  .section-subheader {
+    font-size: 1rem;
+  }
+
+  /* #services::after {
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 20em;
+    background: url("./images/dots.png") no-repeat;
+    right: 0;
+    top: 0em;
+  } */
 }
-.slick-next {
-  top: unset;
-  bottom: -30px;
+@media only screen and (min-width: 1024px) {
+  .section-subheader {
+    font-size: 1.1rem;
+  }
+  /* #services::before {
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 20em;
+    background: #023e8a;
+    right: 0;
+    top: -8em;
+  } */
 }
-.slick-prev {
-  top: -30px;
+@media only screen and (min-width: 1440px) {
+  .section-subheader {
+    font-size: 1.3rem;
+  }
+  /* #services::before {
+    width: 7%;
+    height: 25em;
+    top: -12em;
+  } */
+}
+@media only screen and (min-width: 1920px) {
+  .section-subheader {
+    font-size: 1.5rem;
+  }
+  /* #services::before {
+    width: 5%;
+    height: 30em;
+    top: -12em;
+  } */
 }

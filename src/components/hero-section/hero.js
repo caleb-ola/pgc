@@ -7,7 +7,7 @@ const Hero = () => {
     <div>
       <div
         id="carouselExampleCaptions"
-        class="carousel slide"
+        class="carousel slide carousel-fade"
         data-bs-ride="carousel"
       >
         <div class="carousel-indicators">
@@ -40,7 +40,7 @@ const Hero = () => {
               <p className="hero-text py-sm-2">
                 Some representative placeholder content for the first slide.
               </p>
-              <a className="btn explorer-btn my-sm-2" href="#">
+              <a className="btn shadow-none explorer-btn my-sm-2" href="#">
                 Explore
               </a>
             </div>
@@ -52,7 +52,7 @@ const Hero = () => {
               <p className="hero-text py-sm-2">
                 Some representative placeholder content for the second slide.
               </p>
-              <a className="btn explorer-btn my-sm-2" href="#">
+              <a className="btn shadow-none explorer-btn my-sm-2" href="#">
                 Learn more
               </a>
             </div>
@@ -64,7 +64,7 @@ const Hero = () => {
               <p className="hero-text py-sm-2">
                 Some representative placeholder content for the third slide.
               </p>
-              <a className="btn explorer-btn my-sm-2" href="#">
+              <a className="btn shadow-none explorer-btn my-sm-2" href="#">
                 Learn more
               </a>
             </div>

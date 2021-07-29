@@ -1,0 +1,23 @@
+.card-two {
+  border-radius: 10px;
+}
+.card-two-image {
+  border-radius: 100px;
+  margin-top: -70px;
+  /* z-index: 99; */
+  width: 100px;
+}
+.slick-track .slick-list {
+  max-width: 100% !important;
+}
+div.card.card-two {
+  background-color: #e1f6fb;
+  margin-top: 100px;
+  text-align: center;
+}
+@media only screen and (min-width: 1440px) {
+  .card-two-image {
+    margin-top: -90px;
+    width: 130px;
+  }
+}

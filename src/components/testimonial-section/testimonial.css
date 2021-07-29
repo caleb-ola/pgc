@@ -1,0 +1,27 @@
+#testimonial {
+  background: #023e8a;
+}
+.testimonial-header {
+  color: #fff;
+  /* font-size: 1.7rem; */
+}
+@media only screen and (min-width: 768px) {
+  .testimonial-header {
+    font-size: 2rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .testimonial-header {
+    font-size: 2rem;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .testimonial-header {
+    font-size: 2rem;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .testimonial-header {
+    font-size: 2.6rem;
+  }
+}
