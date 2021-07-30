@@ -12,11 +12,13 @@ const Footer = () => {
         <div className="row justify-content-center align-items-center text-center">
           {/* <div className="mx-auto"> */}
           <Spin>
-            <img
-              src="images/logo-white.png"
-              alt="footer white logo"
-              className="img-fluid footer-logo py-2"
-            />
+            <a href="/">
+              <img
+                src="images/logo-white.png"
+                alt="footer white logo"
+                className="img-fluid footer-logo py-2"
+              />
+            </a>
           </Spin>
 
           <div className="row d-inline">
@@ -27,11 +29,13 @@ const Footer = () => {
               Services
             </a>
             <Spin>
-              <img
-                src="images/logo-white.png"
-                alt="footer white logo"
-                className="img-fluid footer-logo2 py-2"
-              />
+              <a href="">
+                <img
+                  src="images/logo-white.png"
+                  alt="footer white logo"
+                  className="img-fluid footer-logo2 py-2"
+                />
+              </a>
             </Spin>
 
             <a href="#" className="py-1">

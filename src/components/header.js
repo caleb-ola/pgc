@@ -67,7 +67,9 @@ const Header = () => {
               </li>
               <li class="nav-item dropdown">
                 <a
-                  class="nav-link"
+                  class={`nav-link ${
+                    window.location.pathname == "/team" ? "active" : ""
+                  } `}
                   href="#"
                   id="navbarDropdown"
                   role="button"
@@ -90,9 +92,9 @@ const Header = () => {
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <NavLink class="dropdown-item" to="/departments">
+                    <a class="dropdown-item" href="/#services">
                       Departments
-                    </NavLink>
+                    </a>
                   </li>
                   <li>
                     <Link class="dropdown-item" to="/team">
@@ -113,7 +115,12 @@ const Header = () => {
                 </NavLink>
               </li>
               <li class="nav-item ">
-                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">
+                <a
+                  class={`nav-link ${
+                    window.location.pathname === "/#contact" ? "active" : ""
+                  }`}
+                  href="#contact"
+                >
                   Contact us
                 </a>
               </li>

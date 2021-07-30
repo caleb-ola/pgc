@@ -41,6 +41,27 @@ div.social-icons i:hover {
   color: #023e8a;
   background-color: #caf0f8;
 }
+
+@media (prefers-reduced-motion: no-preference) {
+  .footer-logo {
+    animation: App-logo-spin infinite 10s linear;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .footer-logo2 {
+    animation: App-logo-spin infinite 10s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 @media only screen and (min-width: 768px) {
   footer div img.footer-logo {
     /* width: 10%; */

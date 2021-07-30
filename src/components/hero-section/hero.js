@@ -36,11 +36,15 @@ const Hero = () => {
           <div class="carousel-item active ">
             <img src="images/hero1.jpg" class="img-fluid" alt="..." />
             <div class="carousel-caption ">
-              <h1 className="hero-header py-sm-2">We are peculiar</h1>
+              <h1 className="hero-header py-sm-2">Peculiar Grace Clinic</h1>
               <p className="hero-text py-sm-2">
-                Some representative placeholder content for the first slide.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Dolorem, enim!
               </p>
-              <a className="btn shadow-none explorer-btn my-sm-2" href="#">
+              <a
+                className="btn shadow-none explorer-btn my-sm-2"
+                href="/#services"
+              >
                 Explore
               </a>
             </div>
@@ -50,9 +54,13 @@ const Hero = () => {
             <div class="carousel-caption">
               <h1 className="hero-header py-sm-2">We care God heals </h1>
               <p className="hero-text py-sm-2">
-                Some representative placeholder content for the second slide.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aliquam, laudantium.{" "}
               </p>
-              <a className="btn shadow-none explorer-btn my-sm-2" href="#">
+              <a
+                className="btn shadow-none explorer-btn my-sm-2"
+                href="/#about"
+              >
                 Learn more
               </a>
             </div>
@@ -62,9 +70,13 @@ const Hero = () => {
             <div class="carousel-caption ">
               <h1 className="hero-header py-sm-2">Reach out to us</h1>
               <p className="hero-text py-sm-2">
-                Some representative placeholder content for the third slide.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Dolorum, aliquid?{" "}
               </p>
-              <a className="btn shadow-none explorer-btn my-sm-2" href="#">
+              <a
+                className="btn shadow-none explorer-btn my-sm-2"
+                href="/#contact"
+              >
                 Learn more
               </a>
             </div>

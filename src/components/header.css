@@ -6,8 +6,8 @@ nav {
   font-weight: 300;
   font-size: 0.9rem;
 }
-.activeLink {
-  color: black;
+.nav-link.active {
+  color: #023e8a !important;
 }
 a.navbar-brand {
   width: 10%;

@@ -1,0 +1,14 @@
+#founders {
+  background-color: #caf0f8;
+}
+#founders div.card {
+  background-color: #caf0f8;
+}
+#founders .card div.founder-icons i {
+  background-color: #023e8a;
+  color: #caf0f8;
+}
+#founders .card div.founder-icons i:hover {
+  background-color: #fff;
+  color: #023e8a;
+}

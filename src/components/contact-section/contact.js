@@ -40,7 +40,7 @@ const Contact = () => {
           <textarea
             className="message w-100 p-2"
             id="message"
-            placeholder="Send us a message"
+            placeholder="Please, type your message here..."
           ></textarea>
         </div>
         <div className="text-center text-md-start p-2">
@@ -48,7 +48,7 @@ const Contact = () => {
             type="submit"
             className="btn btn-primary form-submit my-2 px-5 py-3  learn-more shadow-none "
           >
-            Submit
+            Send message
           </button>
         </div>
       </form>
