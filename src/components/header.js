@@ -131,7 +131,10 @@ const Header = () => {
                 className="btn btn-outline-success shadow-none donate-btn"
                 type="submit"
               >
-                EXPLORE
+                <a href="/" className="text-reset text-decoration-none">
+                  {" "}
+                  EXPLORE
+                </a>
               </button>
             </form>
           </div>

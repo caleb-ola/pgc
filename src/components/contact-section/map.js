@@ -1,33 +1,4 @@
 import React, { Component } from "react";
-// import { Map, GoogleApiWrapper } from "google-maps-react";
-
-// const mapStyles = {
-//   width: "80%",
-//   height: "600px",
-//   position: "relative !important",
-// };
-
-// export class MapContainer extends Component {
-//   render() {
-//     return (
-//       <Map
-//         google={this.props.google}
-//         zoom={14}
-//         style={mapStyles}
-//         initialCenter={{
-//           lat: -1.2884,
-//           lng: 36.8233,
-//         }}
-//         className="mx-auto w-50 map"
-//         style={{ width: "100%", height: "500px", position: "relative" }}
-//       />
-//     );
-//   }
-// }
-
-// export default GoogleApiWrapper({
-//   apiKey: "AIzaSyA3joqF4XnwAvuAm2yjShXzNFVyn7c4Evs",
-// })(MapContainer);
 
 const Map = () => {
   return (
