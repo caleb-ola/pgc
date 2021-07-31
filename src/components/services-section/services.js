@@ -349,10 +349,10 @@ const Services = () => {
               className="abstract d-none d-xl-block"
               style={{
                 position: "absolute",
-                width: "8%",
-                height: "25em",
+                width: "7%",
+                height: "20em",
                 background: "#023e8a",
-                top: "-12em",
+                top: "-10em",
                 right: "0",
               }}
             ></div>
@@ -363,9 +363,10 @@ const Services = () => {
               className="dots d-none d-xl-block"
               style={{
                 position: "absolute",
-                width: "320px",
+                width: "240px",
                 height: "200px",
                 background: "url('images/dots.png') no-repeat",
+                backgroundSize: "contain",
                 top: "-7em",
                 right: "0",
                 // zIndex: "3",

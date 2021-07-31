@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 
 // REACT SLICK
-import Spin from "react-reveal/Spin";
+import Wobble from "react-reveal/Wobble";
+import RubberBand from "react-reveal/RubberBand";
 
 // REACT ROUTER DOM
 import { NavLink, Link } from "react-router-dom";
@@ -24,7 +25,7 @@ const Header = () => {
       {console.log(window.location.pathname)}
       <nav class="navbar navbar-expand-md navbar-light py-3">
         <div class="container">
-          <Spin>
+          <Wobble>
             <a class={`navbar-brand`} href="/">
               <img
                 className="img-fluid"
@@ -32,7 +33,7 @@ const Header = () => {
                 alt="the brand logo"
               />{" "}
             </a>
-          </Spin>
+          </Wobble>
 
           <button
             onClick={toggleIcon}
